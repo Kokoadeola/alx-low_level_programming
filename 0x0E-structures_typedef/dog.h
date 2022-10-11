@@ -1,5 +1,5 @@
-#ifndef _DOG_H_
-#define _DOG_H_
+#ifndef DOG_H
+#define DOG_H
 
 /**
  * struct dog - structure for dogs
@@ -25,9 +25,7 @@ struct dog
  *
  * Description: alias for type struct dog
  */
-
 typedef struct dog dog_t;
-
 void init_dog(struct dog *d, char *name, float age, char *owner);
 
 #endif
