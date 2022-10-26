@@ -1,4 +1,5 @@
-#include "list.h"
+#include "lists.h"
+#include <stdlib.h>
 
 /**
  * listint_len - returns the number of elements in linked list
